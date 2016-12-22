@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>段落标签</title>
+    <style>
+        span {
+            font-size: 20px;
+            color: rebeccapurple;
+        }
+        form{
+            font-size: 20px;
+            color: crimson;
+        }
+        table {
+            border: 1px solid coral;
+        }
+
+        tr {
+            border: 1px solid rebeccapurple;
+        }
+
+        td {
+            border: 1px solid cornflowerblue;
+        }
+
+        th {
+            border: 1px solid royalblue;
+        }
+
+
+    </style>
+</head>
+<body>
+<!--同时使用-->
+<strong><em><span>我就是被修饰的哈哈哈</span>哈哈哈哈</em></strong>
+<q>我曹</q>
+<blockquote>我草草老师就发了啥积分</blockquote>
+<p>第一段文字</p>
+<p>第二段文字</p>
+<p>第三段文字</p>
+
+第一行<br/>
+第一行<br/>
+第一行<br/>
+第一行<br/>
+<pre>
+        android:textSize="12sp"
+        android:textColor="@color/color_red"
+        android:grivity="center"
+    </pre>
+<ul>
+    <li>第一个</li>
+    <li>第一个</li>
+    <li>第一个</li>
+    <li>第一个</li>
+    <li>第一个</li>
+</ul>
+
+<div id="n_order">
+    <h3>无需标题</h3>
+    <ul>
+        <li>hahah</li>
+        <li>hahah</li>
+        <li>hahah</li>
+        <li>hahah</li>
+        <li>hahah</li>
+    </ul>
+</div>
+<div id="order_div">
+    <h3>有序标题</h3>
+    <ol>
+        <li>lsjlsjj</li>
+        <li>lsjlsjj</li>
+        <li>lsjlsjj</li>
+        <li>lsjlsjj</li>
+        <li>lsjlsjj</li>
+        <li>lsjlsjj</li>
+    </ol>
+</div>
+<div>
+    <table>
+        <caption>表格描述</caption>
+        <tbody>
+        <tr>
+            <th>名字</th>
+            <th>班级</th>
+            <th>爱好</th>
+            <th>体重</th>
+        </tr>
+        <tr>
+            <td>你猜</td>
+            <td>你猜</td>
+            <td>你猜</td>
+            <td>你猜</td>
+        </tr>
+        <tr>
+            <td>你猜</td>
+            <td>你猜</td>
+            <td>你猜</td>
+            <td>你猜</td>
+        </tr>
+        <tr>
+            <td>你猜</td>
+            <td>你猜</td>
+            <td>你猜</td>
+            <td>你猜</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+<div>
+    <a href="http://www.baidu.com" target="_blank" title="进入百度">www.baidu.com</a>
+    <img src="http://pic.orsoon.com/uploads/allimg/2016/01/27/24-43311453876336.png">
+    <!--登录框-->
+
+    <form action="index.html" method="post">
+        <label for="username">用户名:</label><br/>
+        <input type="text" name="username" id="username" value=""/><br/>
+        <label>密码:</label><br/>
+        <input type="password" name="password" id="password" value=""/><br/>
+        <input type="submit" value="确定" name="submit"/>
+        <input type="reset" value="重置" name="reset"/><br/>
+    </form>
+</div>
+<div>
+    <form>
+        <label>意见反馈:</label><br/>
+        <textarea rows="10" cols="100">
+                请输入您的宝贵意见....
+            </textarea><br/>
+        <input type="submit" value="重置"/>
+        <input type="submit" value="提交"/>
+
+    </form>
+</div>
+<div>
+    <form>
+        <label>性别:</label>
+        <br/>
+        <label>男</label>
+        <input type="radio" value="男" name="name"/>
+        <br/>
+        <label>女</label>
+        <input type="radio" value="女" name="name"/>
+    </form>
+    <form>
+        <label>兴趣爱好</label>
+        <br/>
+        <label>旅游</label>
+        <input type="checkbox"/>
+        <label>旅游</label>
+        <input type="checkbox"/>
+        <label>旅游</label>
+        <input type="checkbox"/>
+        <label>旅游</label>
+        <input type="checkbox"/>
+    </form>
+    <br/>
+    <form>
+        <label>下拉列表</label>
+        <select>
+            <option value="1">语文</option>
+            <option value="2" selected>数学</option>
+            <option value="3">历史</option>
+            <option value="4">地理</option>
+        </select>
+    </form>
+    <form>
+        <label>姓名</label>
+        <input type="text"/>
+        <label>班级</label>
+        <input type="text" >
+        <input type="reset" value="重置"/>
+    </form>
+    <div>
+        <label style="font-size: 19px;color: aqua;">我是内联式CSS样式</label>
+    </div>
+</div>
+</body>
+</html>
